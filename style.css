@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f7f9; /* Soft Sand */
+    margin: 0;
+    color: #1f2937; /* Slate Gray */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #0f766e; /* Deep Teal */
+    padding: 30px 20px;
+    color: #f6f7f9; /* Soft Sand */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin-top: 8px;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #0f766e; /* Deep Teal */
+    padding: 14px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #f6f7f9;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #2dd4bf; /* Sea Green */
+}
+
+/* Sections */
+section {
+    background-color: #e5e7eb; /* Cool Gray */
+    margin: 35px auto;
+    padding: 28px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #0f766e;
+    margin-bottom: 15px;
+}
+
+/* Project & certificate cards */
+.project, .cert-card {
+    background-color: #f6f7f9;
+    border-left: 5px solid #2dd4bf;
+    border-radius: 8px;
+    padding: 18px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Buttons */
+.view-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 22px;
+    background-color: #0f766e;
+    color: #ffffff;
+    border-radius: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.view-btn:hover {
+    background-color: #2dd4bf;
+    color: #0f766e;
+}
+
+section p {
+    text-align: center;
+    margin: 8px 0;
+    line-height: 1.6;
+}
+
+h3 {
+    margin-top: 20px;
+    color: #0f766e; /* keep your accent color */
+}
+
+ul {
+    list-style: none;      /* removes default bullets */
+    padding: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #0f766e;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #0f766e; /* Deep Teal */
+    color: #f6f7f9;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
